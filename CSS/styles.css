@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,7 +20,7 @@ header {
       rgba(161, 196, 253, 0.4) 0%,
       rgba(194, 233, 251, 0.4) 100%
     ),
-    url(../img/woman.jpg);
+    url(../img/notebook.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,6 +82,8 @@ header {
 .title {
   font-size: 3.75rem;
   margin-bottom: 1.875rem;
+  font-family: "Ranchers", cursive;
+  letter-spacing: 0.1rem;
 }
 
 .text__copy {
@@ -158,4 +161,30 @@ header {
   margin-bottom: 0.9375rem;
   box-shadow: 0 0 0.375rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+
+/* SERVICIOS COMPLETOS */
+
+.experts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.experts__container {
+  width: 50%;
+  text-align: center;
+}
+
+.experts__container img {
+  width: 75%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  width: 100%;
+  height: 4.875rem;
 }

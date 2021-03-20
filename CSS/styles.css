@@ -56,7 +56,7 @@ header {
   right: 0;
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 25vw;
   height: 100%;
   background-image: linear-gradient(
     to top,
@@ -189,7 +189,11 @@ header {
   width: 60%;
   border-radius: 0.625rem;
   transform: scale(0);
-  transition: transform 0.2s 0.1s;
+  transition: transform 0.3s 0.2s;
+}
+
+.show__image {
+  transform: scale(1);
 }
 
 .close {
@@ -198,10 +202,6 @@ header {
   right: 0.9375rem;
   cursor: pointer;
   width: 2.5rem;
-}
-
-.click__image {
-  transform: scale(1);
 }
 
 /* SERVICIOS COMPLETOS */

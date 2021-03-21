@@ -355,4 +355,18 @@ footer {
     width: 80%;
     margin-bottom: 40px;
   }
+  .f:hover {
+    background: #fff;
+    color: rgb(90, 118, 179);
+  }
+
+  .t:hover {
+    background: #fff;
+    color: rgb(8, 160, 233);
+  }
+
+  .i:hover {
+    background: #fff;
+    color: rgb(193, 53, 132);
+  }
 }
